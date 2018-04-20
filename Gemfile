@@ -50,6 +50,13 @@ group :development do
   gem 'spring-watcher-listen', '2.0.1'
 end
 
+group :test do
+  gem 'minitest-reporters'
+  gem 'mini_backtrace'
+  gem 'guard'
+  gem 'guard-minitest'
+end
+
 group :production do
   gem 'pg', '0.20.0'
 end
